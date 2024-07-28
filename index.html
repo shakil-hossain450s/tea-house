@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/f3d51a81b3.js" crossorigin="anonymous"></script>
     <!-- customizing config -->
     <script>
         tailwind.config = {
@@ -49,7 +51,15 @@
                         Tea and Botanical Solutions Supplier Give Optimum <br class="hidden lg:block">Satisfaction To
                         Your Taste Buds.
                     </p>
-                    <button class="btn text-white bg-gradient-to-r from-[#ff0000ee] to-[#ff8838]">Explore More</button>
+                    <button
+                        class="btn flex gap-2 items-center bg-gradient-to-r from-[#ff0000ee] to-[#ff8838] text-white text-lg px-5 rounded-lg font-bold">
+                        Explore More
+                        <i class="fa-solid fa-arrow-up rotate-45"></i>
+                    </button>
+                    <!-- <button class="btn text-xl px-5 py-4 text-white ">
+                        Explore More
+                        
+                    </button> -->
                 </div>
                 <div class="flex-1 lg:mt-28">
                     <img src="images/banner.png" class="w-full" />
@@ -169,7 +179,7 @@
                 <p class="mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have
                     suffered alteration in some form, by injected humour, or randomised words which don't look even
                     slightly believable.</p>
-                <button class="btn bg-white hover:bg-white px-7 py-3 text-[#FF451C] text-xl font-bold rounded-lg">Show
+                <button class="btn bg-white hover:bg-white px-7 text-[#FF451C] text-xl font-bold rounded-lg">Show
                     All</button>
             </div>
             <!-- review container -->
@@ -239,56 +249,110 @@
                 </p>
             </div>
             <!-- card container -->
-             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 lg:mt-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 lg:mt-12">
                 <!-- card 1 -->
                 <div class="card card-compact border p-5">
                     <figure class="rounded-md">
-                      <img
-                        src="./images/news-1.png"
-                        alt="news" />
+                        <img src="./images/news-1.png" alt="news" />
                     </figure>
                     <div class="mt-5 space-y-2.5">
-                      <p class="text-[#777] opacity-70">Feb 05, 2027</p>
-                      <h4 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h4>
-                      <p class="font-medium opacity-70 text-[#777]">There are many variations of passages of Lorem Ipsum available.</p>
-                      <p class="font-bold mt-2"><a href="#">Learn More</a></p>
+                        <p class="text-[#777] opacity-70">Feb 05, 2027</p>
+                        <h4 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h4>
+                        <p class="font-medium opacity-70 text-[#777]">There are many variations of passages of Lorem
+                            Ipsum available.</p>
+                        <p class="font-bold mt-2"><a href="#">Learn More</a></p>
                     </div>
-                  </div>
+                </div>
                 <!-- card 2 -->
                 <div class="card card-compact border p-5">
                     <figure class="rounded-md">
-                      <img
-                      src="./images/news-2.png"
-                      alt="news" />
+                        <img src="./images/news-2.png" alt="news" />
                     </figure>
                     <div class="mt-5 space-y-2.5">
-                      <p class="text-[#777] opacity-70">Feb 05, 2027</p>
-                      <h4 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h4>
-                      <p class="font-medium opacity-70 text-[#777]">There are many variations of passages of Lorem Ipsum available.</p>
-                      <p class="font-bold mt-2"><a href="#">Learn More</a></p>
+                        <p class="text-[#777] opacity-70">Feb 05, 2027</p>
+                        <h4 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h4>
+                        <p class="font-medium opacity-70 text-[#777]">There are many variations of passages of Lorem
+                            Ipsum available.</p>
+                        <p class="font-bold mt-2"><a href="#">Learn More</a></p>
                     </div>
-                  </div>
+                </div>
                 <!-- card 3 -->
                 <div class="card card-compact border p-5">
                     <figure class="rounded-md">
-                      <img
-                      src="./images/news-3.png"
-                      alt="news" />
+                        <img src="./images/news-3.png" alt="news" />
                     </figure>
                     <div class="mt-5 space-y-2.5">
-                      <p class="text-[#777] opacity-70">Feb 05, 2027</p>
-                      <h4 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h4>
-                      <p class="font-medium opacity-70 text-[#777]">There are many variations of passages of Lorem Ipsum available.</p>
-                      <p class="font-bold mt-2"><a href="#">Learn More</a></p>
+                        <p class="text-[#777] opacity-70">Feb 05, 2027</p>
+                        <h4 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h4>
+                        <p class="font-medium opacity-70 text-[#777]">There are many variations of passages of Lorem
+                            Ipsum available.</p>
+                        <p class="font-bold mt-2"><a href="#">Learn More</a></p>
                     </div>
-                  </div>
-             </div>
+                </div>
+            </div>
         </section>
         <!-- News & Events section end -->
     </main>
     <!-- main end -->
     <!-- footer start -->
-    <footer></footer>
+    <footer class="py-8 md:py-14 lg:py-24 bg-gradient-to-r from-[#FF000019] to-[#FF893819]">
+        <div class="container mx-auto px-8 md:px-12 lg:px-20">
+            <div class="flex flex-col md:flex-row justify-between md:items-center">
+                <div class="mb-3">
+                    <img class="w-16" src="./images/cup.png" alt="">
+                </div>
+                <div class="flex items-center gap-6 md:gap-10">
+                    <p class="text-[#494949] font-medium text-xl">Ready to get started?</p>
+                    <button class="btn px-6 py-4 text-white bg-gradient-to-r from-[#ff0000ee] to-[#ff8838]">Explore
+                        More</button>
+                </div>
+            </div>
+            <div class="footer text-[#494949] justify-between mt-10 md:mt-16 lg:mt-20">
+                <nav>
+                    <h6 class="text-[#1C1C1C] text-lg font-semibold">Quick Links</h6>
+                    <a class="link link-hover text-base">Home</a>
+                    <a class="link link-hover text-base">About</a>
+                    <a class="link link-hover text-base">Insurance</a>
+                    <a class="link link-hover text-base">Privacy Policy</a>
+                </nav>
+                <nav>
+                    <h6 class="text-[#1C1C1C] text-lg font-semibold">Our Service</h6>
+                    <a class="link link-hover text-base">Life Insurance</a>
+                    <a class="link link-hover text-base">Car Insurance</a>
+                    <a class="link link-hover text-base">Health Insurance</a>
+                    <a class="link link-hover text-base">House Insurance</a>
+                </nav>
+                <nav>
+                    <h6 class="text-[#1C1C1C] text-lg font-semibold">Help</h6>
+                    <a class="link link-hover text-base">FAQs</a>
+                    <a class="link link-hover text-base">Contact Us</a>
+                </nav>
+                <form class="w-full">
+                    <h6 class="text-[#1c1c1c] text-2xl font-semibold mb-10">Subscribe to our <br> newsletter</h6>
+                    <fieldset class="form-control md:w-80 mb-12">
+                        <div class="join justify-between">
+                            <div class="md:w-10/12 border-b-2 border-[#494949] border-opacity-50">
+                                <input class="bg-transparent outline-none text-sm pb-5 " type="email" name="" id=""
+                                    placeholder="Email address">
+                            </div>
+                            <button
+                                class="text-white font-semibold text-xl p-2 w-10 h-10 rounded-full bg-gradient-to-r from-[#ff0000ee] to-[#ff8838]">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </fieldset>
+                    <div class="flex items-center gap-6">
+                        <a href="#"><i class="fa-brands fa-facebook-f text-2xl"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter text-2xl"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram text-2xl"></i></a>
+                    </div>
+                </form>
+            </div>
+            <div class="text-center mt-5 md:mt-14">
+                <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+            </div>
+        </div>
+    </footer>
     <!-- footer end -->
 </body>
 
